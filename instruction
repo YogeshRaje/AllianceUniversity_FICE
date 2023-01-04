@@ -33,6 +33,10 @@ Task3-Run IDP Python file on CPU , GPU and FPGA
 step1)upload file demo_python1.py
 step2)create run.sh file 
 $nano run.sh 
+
+
+
+
 add following line of code 
 #!/bin/bash
 %%qsub
@@ -61,3 +65,25 @@ qsub -l nodes=1:fpga_runtime:arria10:ppn=2 -d . run.sh
 
 FPGA Stratix10
 qsub -l nodes=1:fpga_runtime:stratix10:ppn=2 -d . run.sh
+
+
++++++++++++++
+
+___________________________________
+
+++++++++++++++++++++++++++++++++
+
+Intel Extension Sklearn
+***To Patch (sklearnex )==>
+from sklearnex import patch_sklearn 
+patch_sklearn()
+
+
+***To Unpatch (sklearnex)==>
+from sklearnex import unpatch_sklearn
+unpatch_sklearn()
+
+***To executing code on Intel Sklearnex without changing code written in sklearn
+>python -m sklearnex Class_patch.py
+
+++++++++++++++++++++++++++
