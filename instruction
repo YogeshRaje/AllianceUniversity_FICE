@@ -50,3 +50,10 @@ It will create two files- run.sh.e2081402  and run.sh.o2081402
  
 -To check output run command on terminal 
 >cat run.sh.o2081402
+
+
+FPGA 
+
+qsub -l nodes=1:fpga_compile:ppn=2 -d . run.sh
+
+
