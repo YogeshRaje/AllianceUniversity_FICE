@@ -89,7 +89,7 @@ unpatch_sklearn()
 eg >jupyter nbconvert Class_patch.ipynb --to script
 ++++++++++++++++++++++++++
 
-Day2 -
+Day3 -
 Task1- Install Intel Distribution of Python on Laptop
 -Search for intel distribution for python 
 https://www.intel.com/content/www/us/en/developer/tools/oneapi/distribution-for-python.html
