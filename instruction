@@ -138,3 +138,7 @@ Task- How to Copy sample code on Terminal of Intel DevCloud
 >cd Machine-Learning-using-oneAPI
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Task 5- Use of Modin
+1)Use modin_demo40gb.ipynb file for handling 40 GB od data .
+2)Use modin_demo.ipynb file for more exercise using modin
