@@ -139,6 +139,6 @@ Task- How to Copy sample code on Terminal of Intel DevCloud
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Task 5- Use of Modin
-1)Use modin_demo40gb.ipynb file for handling 40 GB od data .
-2)Use modin_demo.ipynb file for more exercise using modin
+Task 5- Use of Modin for handling 80GB of dataset
+1)Use modin80GBdataset_6123.ipynb file for handling 80 GB of dataset .
+2)Use modin_demo.ipynb file to perform more exercises using modin
